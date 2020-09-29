@@ -4,7 +4,7 @@ const logger = require("./logger"); // custom middlewre function
 const auth = require("./auth");
 const express = require("express");
 const app = express();
-
+// Define environment
 console.log(`NODE_ENV is: ${process.env.NODE_ENV}`);
 console.log(`app: ${app.get("env")}`);
 // MIDDLEWARE FUNCTIONS
